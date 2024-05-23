@@ -22,6 +22,7 @@ public class DangNhapOTP extends AppCompatActivity {
         sdt = getIntent().getExtras().getString("dt");
         Toast.makeText(getApplication(),sdt, Toast.LENGTH_LONG).show();
 
-
+        Map<String,String> data = new HashMap<>();
+        FirebaseFirestore.getInstance().collection("test").add(data);
     }
 }

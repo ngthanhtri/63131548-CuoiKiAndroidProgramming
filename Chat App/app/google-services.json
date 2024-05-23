@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "148561155924",
+    "project_id": "chat-app-d734c",
+    "storage_bucket": "chat-app-d734c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148561155924:android:a2524e68c3a6db8d895ac1",
+        "android_client_info": {
+          "package_name": "thanhtri63131548.ntuedu.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhIsQbwkyZ66FhJSKZF9cLg30XZRvDifc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
