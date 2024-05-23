@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ChatApp"
         tools:targetApi="31">
         <activity
+            android:name=".DangNhapOTP"
+            android:exported="false" />
+        <activity
             android:name=".DangNhapSDT"
             android:exported="false" />
         <activity
