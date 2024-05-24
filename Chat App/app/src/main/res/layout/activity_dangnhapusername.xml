@@ -115,7 +115,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/botron_btn"
             android:text="Hoàn thành"
-            android:id="@+id/login_let_me_in_btn"/>
+            android:id="@+id/login_hoanthanh_btn"/>
         <ProgressBar
             android:layout_width="32dp"
             android:layout_height="wrap_content"
