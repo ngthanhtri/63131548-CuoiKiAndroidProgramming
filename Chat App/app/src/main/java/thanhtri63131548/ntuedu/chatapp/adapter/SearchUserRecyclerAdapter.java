@@ -1,6 +1,7 @@
 package thanhtri63131548.ntuedu.chatapp.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,8 +14,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 
+import thanhtri63131548.ntuedu.chatapp.ChatActivity;
 import thanhtri63131548.ntuedu.chatapp.R;
 import thanhtri63131548.ntuedu.chatapp.model.UserModel;
+import thanhtri63131548.ntuedu.chatapp.utils.AndroidUtil;
 import thanhtri63131548.ntuedu.chatapp.utils.FirebaseUtil;
 
 public class SearchUserRecyclerAdapter extends FirestoreRecyclerAdapter<UserModel,SearchUserRecyclerAdapter.UserModelViewHolder> {
@@ -33,7 +36,12 @@ public class SearchUserRecyclerAdapter extends FirestoreRecyclerAdapter<UserMode
         if(model.getUserId().equals(FirebaseUtil.userIDhientai())){
             holder.usernameText.setText(model.getUsername()+"(Me)");
         }
-
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(context, ChatActivity.class);
+            AndroidUtil.passUserModelAsIntent(intent,model);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(intent);
+        });
     }
 
     @NonNull
