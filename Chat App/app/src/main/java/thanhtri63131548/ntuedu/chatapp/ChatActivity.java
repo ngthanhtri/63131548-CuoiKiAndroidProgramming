@@ -13,12 +13,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.Timestamp;
+import com.google.firebase.firestore.DocumentReference;
 
 import java.io.IOException;
 import java.sql.Time;
 import java.util.Arrays;
 
+import thanhtri63131548.ntuedu.chatapp.model.ChatMessageModel;
 import thanhtri63131548.ntuedu.chatapp.model.ChatroomModel;
 import thanhtri63131548.ntuedu.chatapp.model.UserModel;
 import thanhtri63131548.ntuedu.chatapp.utils.AndroidUtil;
@@ -57,6 +61,13 @@ public class ChatActivity extends AppCompatActivity {
         });
         otherUsername.setText(otherUser.getUsername());
 
+        sendMessageBtn.setOnClickListener((v -> {
+            String message = messageInput.getText().toString().trim();
+            if(message.isEmpty())
+                return;
+            sentMessageToUser(message);
+        }));
+
         getOrCreateChatroomModel();
     }
 
@@ -75,5 +86,26 @@ public class ChatActivity extends AppCompatActivity {
                     FirebaseUtil.getChatroomReference(chatroomId).set(chatroomModel);
             }
         });
+    }
+
+    void sentMessageToUser(String message){
+
+        chatroomModel.setLastMessageTimestamp(Timestamp.now());
+        chatroomModel.setLastMessageSenderId(FirebaseUtil.userIDhientai());
+        FirebaseUtil.getChatroomReference(chatroomId).set(chatroomModel);
+
+
+
+        ChatMessageModel chatMessageModel = new ChatMessageModel(message,FirebaseUtil.userIDhientai(),Timestamp.now());
+        FirebaseUtil.getChatroomMessageReference(chatroomId).add(chatMessageModel)
+                .addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DocumentReference> task) {
+                        if(task.isSuccessful()){
+                            messageInput.setText("");
+                        }
+                    }
+                });
+
     }
 }
