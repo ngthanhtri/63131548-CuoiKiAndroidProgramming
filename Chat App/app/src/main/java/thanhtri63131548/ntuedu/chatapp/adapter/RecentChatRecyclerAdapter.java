@@ -2,6 +2,7 @@ package thanhtri63131548.ntuedu.chatapp.adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,6 +40,17 @@ public class RecentChatRecyclerAdapter extends FirestoreRecyclerAdapter<Chatroom
 
 
                        UserModel otherUserModel = task.getResult().toObject(UserModel.class);
+
+                       FirebaseUtil.getOtherProfilePicStorageRef(otherUserModel.getUserId()).getDownloadUrl()
+                               .addOnCompleteListener(t -> {
+                                   if(t.isSuccessful()){
+                                       Uri uri = t.getResult();
+                                       AndroidUtil.setProfilePic(context,uri,holder.profilePic);
+                                   }
+                               });
+
+
+
                        holder.usernameText.setText(otherUserModel.getUsername());
                        if(lastMessageSentByMe)
                            holder.lastMessageText.setText("Bạn : "+model.getLastMessage());
@@ -77,6 +89,5 @@ public class RecentChatRecyclerAdapter extends FirestoreRecyclerAdapter<Chatroom
             lastMessageTime = itemView.findViewById(R.id.last_message_time_text);
             profilePic = itemView.findViewById(R.id.profile_pic_image_view);
         }
-
     }
 }

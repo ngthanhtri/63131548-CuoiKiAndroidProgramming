@@ -34,7 +34,12 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.google.firebase:firebase-firestore:25.0.0")
+    implementation ("com.google.firebase:firebase-storage-ktx:20.1.0")
+
+    implementation ("com.google.firebase:firebase-firestore")
+
     implementation("androidx.activity:activity:1.8.0")
+
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
@@ -46,6 +51,10 @@ dependencies {
     implementation("com.google.firebase:firebase-auth")
     implementation ("com.firebaseui:firebase-ui-firestore:8.0.2")
     implementation ("com.google.firebase:firebase-firestore:24.1.2")
+
+    implementation ("com.github.dhaval2404:imagepicker:2.1")
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+
 
 
 
