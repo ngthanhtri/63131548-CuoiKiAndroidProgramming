@@ -35,7 +35,7 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.google.firebase:firebase-firestore:25.0.0")
     implementation ("com.google.firebase:firebase-storage-ktx:20.1.0")
-
+    implementation ("com.google.firebase:firebase-messaging-ktx:23.1.2")
     implementation ("com.google.firebase:firebase-firestore")
 
     implementation("androidx.activity:activity:1.8.0")
@@ -54,6 +54,7 @@ dependencies {
 
     implementation ("com.github.dhaval2404:imagepicker:2.1")
     implementation ("com.github.bumptech.glide:glide:4.15.1")
+    implementation("com.google.firebase:firebase-analytics")
 
 
 
