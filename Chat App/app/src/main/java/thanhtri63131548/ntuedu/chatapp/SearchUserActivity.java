@@ -44,7 +44,7 @@ public class SearchUserActivity extends AppCompatActivity {
         searchButton.setOnClickListener(v -> {
             String searchTukhoa = searchInput.getText().toString();
             if(searchTukhoa.isEmpty() || searchTukhoa.length()<3){
-                searchInput.setError("Username không hợp lệ");
+                searchInput.setError("Tên người dùng không hợp lệ");
                 return;
             }
             setupSearchRecyclerView(searchTukhoa);

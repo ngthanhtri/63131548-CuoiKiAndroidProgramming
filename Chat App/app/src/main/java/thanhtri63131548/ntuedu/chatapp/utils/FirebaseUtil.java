@@ -14,9 +14,7 @@ import java.util.List;
 
 public class FirebaseUtil {
 
-    public static String userIDhientai(){
-        return FirebaseAuth.getInstance().getUid();
-    }
+    public static String userIDhientai(){return FirebaseAuth.getInstance().getUid();}
 
     public static boolean isLoggedIn(){
         if(userIDhientai()!=null){

@@ -73,7 +73,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hãy nhập username"
+        android:text="Hãy nhập tên người dùng"
         android:layout_gravity="center_vertical"
         android:letterSpacing="0.08"
         android:textStyle="bold"
@@ -94,7 +94,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:hint="Username"
+            android:hint="Tên người dùng"
             android:inputType="text"
             android:layout_margin="10dp"
             android:background="@drawable/botron_text"

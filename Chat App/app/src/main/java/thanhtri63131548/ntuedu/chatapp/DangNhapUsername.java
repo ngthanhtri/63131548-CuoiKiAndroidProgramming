@@ -87,7 +87,6 @@ public class DangNhapUsername extends AppCompatActivity {
                 }
             }
         });
-
     }
 
     void setInProgress(boolean inProgress) {
