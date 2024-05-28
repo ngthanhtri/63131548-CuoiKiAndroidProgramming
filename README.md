@@ -36,7 +36,7 @@ Dưới đây là một số hình ảnh minh họa về giao diện của ứng
 
 1. **Màn Hình Giới Thiệu:**
    
-   ![Màn Hình Giới Thiệu]((https://imgur.com/4MJ9VET))
+   ![Màn Hình Giới Thiệu](https://imgur.com/4MJ9VET)
 
 2. **Trò Chuyện Giữa Người Dùng:**
    
