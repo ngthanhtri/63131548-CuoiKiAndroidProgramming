@@ -182,11 +182,9 @@ public class ChatActivity extends AppCompatActivity {
 
                     callApi(jsonObject);
 
-
                 } catch (Exception e) {
 
                 }
-
             }
         });
 
@@ -200,7 +198,7 @@ public class ChatActivity extends AppCompatActivity {
         Request request = new Request.Builder()
                 .url(url)
                 .post(body)
-                .header("Authorization", "Bearer ")
+                .header("Authorization", "Bearer AAAArX67N2E:APA91bFjiZrXWt0-cg6js7zAsj0cR5_a4qdLSKJ7q6ff2C9r_iQgXxmIyE1N8VKfs8YCNideRAr7JF69volrPUAH1GacY4p0Jy1y7bp2Sr189M4wyCN4kFU9wX8nJdZjlTywrg3vmYS1")
                 .build();
         client.newCall(request).enqueue(new Callback() {
             @Override
