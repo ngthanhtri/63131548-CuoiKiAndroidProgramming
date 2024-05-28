@@ -29,3 +29,19 @@ Chat App là một ứng dụng chat cho phép người dùng tạo tài khoản
 ## Cài Đặt
 1. Sao chép kho lưu trữ: `git clone https://github.com/ngthanhtri/63131548-CuoiKiAndroidProgramming`
 2. Mở dự án trong Android Studio và cấu hình Firebase với các dịch vụ cần thiết.
+
+## Hình Ảnh Ứng Dụng
+
+Dưới đây là một số hình ảnh minh họa về giao diện của ứng dụng:
+
+1. **Màn Hình Giới Thiệu:**
+   
+   ![Màn Hình Giới Thiệu]((https://imgur.com/4MJ9VET))
+
+2. **Trò Chuyện Giữa Người Dùng:**
+   
+   ![Trò Chuyện Giữa Người Dùng](images/chat_screen.png)
+
+3. **Thông Tin Cá Nhân:**
+   
+   ![Thông Tin Cá Nhân](images/profile_screen.png)
