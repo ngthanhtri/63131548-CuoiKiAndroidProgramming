@@ -44,8 +44,16 @@ Dưới đây là một số hình ảnh minh họa về giao diện của ứng
 
 4. **Trò Chuyện Giữa Người Dùng:**
    
-   ![Trò Chuyện Giữa Người Dùng](images/chat_screen.png)
+   ![Trò Chuyện Giữa Người Dùng](https://i.imgur.com/2SqBzBM.png)
 
 5. **Thông Tin Cá Nhân:**
    
-   ![Thông Tin Cá Nhân](images/profile_screen.png)
+   ![Thông Tin Cá Nhân](https://i.imgur.com/4CahtxX.png)
+
+6. **Lịch Sử Trò Chuyện:**
+   
+   ![Thông Tin Cá Nhân](https://i.imgur.com/fzuojRY.png)
+
+5. **Giao Diện Tìm Kiếm:**
+   
+   ![Thông Tin Cá Nhân](https://i.imgur.com/eouNvPF.png)
