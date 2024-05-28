@@ -40,9 +40,7 @@ Dưới đây là một số hình ảnh minh họa về giao diện của ứng
 
 2. **Màn Hình Đăng Ký và Đăng Nhập:**
   
-![Màn Hình Nhập Số Điện Thoại](https://i.imgur.com/UKHACFT.png)
-![Màn Hình Nhập Mã OTP](https://i.imgur.com/HW3623r.png)
-![Màn Hình Nhập Tên Người Dùng](https://i.imgur.com/TmlLFuv.png)
+![Màn Hình Nhập Số Điện Thoại](https://i.imgur.com/UKHACFT.png)![Màn Hình Nhập Mã OTP](https://i.imgur.com/HW3623r.png)![Màn Hình Nhập Tên Người Dùng](https://i.imgur.com/TmlLFuv.png)
 
 4. **Trò Chuyện Giữa Người Dùng:**
    
