@@ -38,10 +38,16 @@ Dưới đây là một số hình ảnh minh họa về giao diện của ứng
    
    ![Màn Hình Giới Thiệu](https://i.imgur.com/4MJ9VET.png)
 
-2. **Trò Chuyện Giữa Người Dùng:**
+2. **Màn Hình Đăng Ký và Đăng Nhập:**
+  
+![Màn Hình Nhập Số Điện Thoại](https://i.imgur.com/UKHACFT.png)
+![Màn Hình Nhập Mã OTP](https://i.imgur.com/HW3623r.png)
+![Màn Hình Nhập Tên Người Dùng](https://i.imgur.com/TmlLFuv.png)
+
+4. **Trò Chuyện Giữa Người Dùng:**
    
    ![Trò Chuyện Giữa Người Dùng](images/chat_screen.png)
 
-3. **Thông Tin Cá Nhân:**
+5. **Thông Tin Cá Nhân:**
    
    ![Thông Tin Cá Nhân](images/profile_screen.png)
