@@ -1,8 +1,5 @@
 # Chat App
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ngthanhtri)
-
-
 ## Mô Tả
 **Chat App** là một ứng dụng chat cho phép người dùng tạo tài khoản, đăng nhập và gửi tin nhắn văn bản cho nhau. Ứng dụng cung cấp một giao diện dễ sử dụng và tích hợp các tính năng như tìm kiếm người dùng, xem thông tin cá nhân, lịch sử trò chuyện và nhắn tin trực tiếp giữa các người dùng.
 
@@ -81,6 +78,14 @@ Dưới đây là một số hình ảnh minh họa về giao diện của ứng
 ## Thống Kê Ngôn Ngữ Hàng Đầu
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ngthanhtri&layout=compact)
+
+## GitHub Streak Stats
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ngthanhtri)
+
+## GitHub Profile Trophy
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=ngthanhtri&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 <style>
 .fade-in {
