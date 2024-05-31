@@ -3,6 +3,18 @@
 ## Mô Tả
 Chat App là một ứng dụng chat cho phép người dùng tạo tài khoản, đăng nhập và gửi tin nhắn văn bản cho nhau. Ứng dụng cung cấp một giao diện dễ sử dụng và tích hợp các tính năng như tìm kiếm người dùng, xem thông tin cá nhân, lịch sử trò chuyện và nhắn tin trực tiếp giữa các người dùng.
 
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+</picture>
+
 ## Chức Năng Chính
 - Đăng ký và đăng nhập bằng số điện thoại.
 - Gửi và nhận tin nhắn văn bản giữa các người dùng.
