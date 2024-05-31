@@ -38,42 +38,30 @@
 Dưới đây là một số hình ảnh minh họa về giao diện của ứng dụng:
 
 1. **Màn Hình Giới Thiệu:**
-   
-   <div class="fade-in">
-     <img src="https://i.imgur.com/4MJ9VET.png" alt="Màn Hình Giới Thiệu">
-   </div>
+
+   ![Màn Hình Giới Thiệu](https://i.imgur.com/4MJ9VET.png)
 
 2. **Màn Hình Đăng Ký và Đăng Nhập:**
-  
-   <div class="fade-in">
-     <img src="https://i.imgur.com/UKHACFT.png" alt="Màn Hình Nhập Số Điện Thoại">
-     <img src="https://i.imgur.com/HW3623r.png" alt="Màn Hình Nhập Mã OTP">
-     <img src="https://i.imgur.com/TmlLFuv.png" alt="Màn Hình Nhập Tên Người Dùng">
-   </div>
+
+   ![Màn Hình Nhập Số Điện Thoại](https://i.imgur.com/UKHACFT.png)
+   ![Màn Hình Nhập Mã OTP](https://i.imgur.com/HW3623r.png)
+   ![Màn Hình Nhập Tên Người Dùng](https://i.imgur.com/TmlLFuv.png)
 
 3. **Trò Chuyện Giữa Người Dùng:**
-   
-   <div class="fade-in">
-     <img src="https://i.imgur.com/2SqBzBM.png" alt="Trò Chuyện Giữa Người Dùng">
-   </div>
+
+   ![Trò Chuyện Giữa Người Dùng](https://i.imgur.com/2SqBzBM.png)
 
 4. **Thông Tin Cá Nhân:**
-   
-   <div class="fade-in">
-     <img src="https://i.imgur.com/4CahtxX.png" alt="Thông Tin Cá Nhân">
-   </div>
+
+   ![Thông Tin Cá Nhân](https://i.imgur.com/4CahtxX.png)
 
 5. **Lịch Sử Trò Chuyện:**
-   
-   <div class="fade-in">
-     <img src="https://i.imgur.com/fzuojRY.png" alt="Lịch Sử Trò Chuyện">
-   </div>
+
+   ![Lịch Sử Trò Chuyện](https://i.imgur.com/fzuojRY.png)
 
 6. **Giao Diện Tìm Kiếm:**
-   
-   <div class="fade-in">
-     <img src="https://i.imgur.com/eouNvPF.png" alt="Giao Diện Tìm Kiếm">
-   </div>
+
+   ![Giao Diện Tìm Kiếm](https://i.imgur.com/eouNvPF.png)
 
 ## Thống Kê Ngôn Ngữ Hàng Đầu
 
@@ -86,23 +74,3 @@ Dưới đây là một số hình ảnh minh họa về giao diện của ứng
 ## GitHub Profile Trophy
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=ngthanhtri&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
-
-<style>
-.fade-in {
-  animation: fadeIn 2s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-.quote {
-  font-style: italic;
-  color: #555;
-  margin: 20px 0;
-  padding: 10px;
-  border-left: 5px solid #ccc;
-  background-color: #f9f9f9;
-}
-</style>
