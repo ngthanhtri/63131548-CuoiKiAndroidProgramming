@@ -25,6 +25,8 @@ Chat App là một ứng dụng chat cho phép người dùng tạo tài khoản
 2. **Tìm Kiếm Người Dùng**: Tìm kiếm và xem thông tin cá nhân của người dùng khác.
 3. **Lịch Sử Trò Chuyện**: Hiển thị lịch sử trò chuyện giữa người dùng với người dùng.
 4. **Nhắn Tin Trực Tiếp**: Gửi và nhận tin nhắn văn bản trong thời gian thực giữa các người dùng.
+5. **Thông báo đẩy tin nhắn mới**: Người dùng sẽ nhận thông báo đẩy khi có tin nhắn mới được gửi đến.
+
 
 ## Cài Đặt
 1. Sao chép kho lưu trữ: `git clone https://github.com/ngthanhtri/63131548-CuoiKiAndroidProgramming`
