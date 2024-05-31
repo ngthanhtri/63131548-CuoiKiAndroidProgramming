@@ -63,14 +63,3 @@ Dưới đây là một số hình ảnh minh họa về giao diện của ứng
 
    ![Giao Diện Tìm Kiếm](https://i.imgur.com/eouNvPF.png)
 
-## Thống Kê Ngôn Ngữ Hàng Đầu
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ngthanhtri&layout=compact)
-
-## GitHub Streak Stats
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ngthanhtri)
-
-## GitHub Profile Trophy
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=ngthanhtri&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
