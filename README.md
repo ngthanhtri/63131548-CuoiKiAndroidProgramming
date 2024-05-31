@@ -77,7 +77,7 @@ Dưới đây là một số hình ảnh minh họa về giao diện của ứng
 
 ## Thống Kê Ngôn Ngữ Hàng Đầu
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=username-cua-ban&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ngthanhtri&layout=compact)
 
 <style>
 .fade-in {
