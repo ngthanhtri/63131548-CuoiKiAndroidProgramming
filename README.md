@@ -1,5 +1,8 @@
 # Chat App
 
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ngthanhtri)
+
+
 ## Mô Tả
 **Chat App** là một ứng dụng chat cho phép người dùng tạo tài khoản, đăng nhập và gửi tin nhắn văn bản cho nhau. Ứng dụng cung cấp một giao diện dễ sử dụng và tích hợp các tính năng như tìm kiếm người dùng, xem thông tin cá nhân, lịch sử trò chuyện và nhắn tin trực tiếp giữa các người dùng.
 
